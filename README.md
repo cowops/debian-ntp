@@ -24,7 +24,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: loranger.debian-ntp, ntp.server: fr.pool.ntp.org }
+         - { role: cowops.debian-ntp, ntp.server: fr.pool.ntp.org }
 
 Tasks
 -----
